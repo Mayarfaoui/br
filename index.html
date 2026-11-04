@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#26091f">
+  <title>My Love — Happy Birthday</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- PASSWORD GATE: change the secret and hint in script.js -->
+  <div class="gate" id="gate">
+    <div class="gate-card">
+      <div class="gate-heart">♡</div>
+      <p class="eyebrow">A tiny world for two</p>
+      <h2>A little secret</h2>
+      <p>Somewhere in this little universe, there's a secret meant just for you.</p>
+      <form id="gate-form">
+        <input id="password" type="password" placeholder="Enter our secret word" autocomplete="off" aria-label="Secret password">
+        <button class="button primary" type="submit">Unlock our little world ♡</button>
+      </form>
+      <p id="error" class="error" aria-live="polite"></p>
+      <p id="hint" class="hint"></p>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a class="brand" href="#top">♡ My <span>Love</span></a>
+    <div class="nav-links">
+      <a href="#message">Our Message</a><a href="#memories">Gallery</a>
+      <a href="#wishes">Wishes</a><a href="#letter">The Letter</a>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero" id="top">
+      <div class="hero-content">
+        <p class="eyebrow">✦ A message carried through time, for you ✦</p>
+        <h1>Happy Birthday,<em>My Favorite Person</em></h1>
+        <p class="intro">Somewhere past the busy days, there's a little moment waiting for you.<br>Scroll down — something special is here, just for you.</p>
+        <div class="actions">
+          <a class="button primary" href="#message">Begin the Descent ↓</a>
+          <a class="button" href="#letter">Jump Straight to the Letter</a>
+        </div>
+      </div>
+      <div class="scroll-note">SCROLL TO FEEL</div>
+    </header>
+
+    <section id="message" class="section">
+      <p class="eyebrow center">A little note from my heart</p>
+      <h2 class="section-title">If I could gift you a feeling…</h2>
+      <div class="glass-card centered">
+        <div class="big-heart">♡</div>
+        <p>I would give you the feeling of being loved on the quiet days, not only the special ones. The comfort of knowing someone is cheering for you, wishing you well, and hoping life gives you a thousand reasons to smile.</p>
+        <p>Today, this tiny corner of the internet is yours.</p>
+      </div>
+    </section>
+
+    <section id="memories" class="section">
+      <p class="eyebrow center">Little moments, treasured forever</p>
+      <h2 class="section-title">Our little gallery</h2>
+      <div class="gallery">
+        <figure class="photo-card">
+          <img src="photo1.jpeg" alt="A favorite photo together" onerror="this.style.display='none';this.nextElementSibling.hidden=false">
+         
+          <figcaption>A moment I want to remember</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="photo2.jpeg" alt="A sweet memory" onerror="this.style.display='none';this.nextElementSibling.hidden=false">
+          <figcaption>One of my favorite smiles</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="photo3.jpeg" alt="A lovely day together" onerror="this.style.display='none';this.nextElementSibling.hidden=false">
+        
+          <figcaption>More beautiful days ahead</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="wishes" class="section">
+      <p class="eyebrow center">For your new chapter</p>
+      <h2 class="section-title">Three little wishes for you</h2>
+      <div class="wish-grid">
+        <article class="wish"><span>✧</span><h3>More laughter</h3><p>May your days hold joy that arrives unexpectedly.</p></article>
+        <article class="wish"><span>♡</span><h3>Gentle days</h3><p>May life be kind to your heart, even when days get busy.</p></article>
+        <article class="wish"><span>✦</span><h3>Beautiful moments</h3><p>May new memories find you, one lovely moment at a time.</p></article>
+      </div>
+    </section>
+
+    <section id="letter" class="section">
+      <p class="eyebrow center">Open when you're ready</p>
+      <h2 class="section-title">A letter, just for you</h2>
+      <div class="glass-card letter">
+        <p>Happy birthday, my favorite person. ♡</p>
+        <p>I hope this new year of your life brings you closer to everything your heart quietly wishes for. I hope you find reasons to smile in ordinary moments, courage when things feel uncertain, and warmth even on the days that seem a little too long.</p>
+        <p>I may not always find the perfect words, but I want you to know how special you are to me. I hope you never forget how deserving you are of love, peace, kindness, and every beautiful thing this world can offer.</p>
+        <p>And there's one more thing I want to promise you: when the chance comes, I want us to make time for each other and meet as soon as we can. No rushing, no screens between us—just a real moment together, one we can keep in our hearts.</p>
+        <p>Until that day arrives, imagine this little page as a hug sent your way.</p>
+        <p>Happy birthday, sweetheart. Here's to you, and to the moments still waiting for us.</p>
+        <p class="signature">Until we meet… ♡</p>
+      </div>
+    </section>
+  </main>
+  <footer>MADE WITH A LITTLE LOVE ♡ · JUST FOR YOU</footer>
+  <script src="script.js"></script>
+</body>
+</html>
