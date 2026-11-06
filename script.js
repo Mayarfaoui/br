@@ -1,6 +1,6 @@
 
-const SECRET_WORD = "ourlittlemoon"; 
-const PASSWORD_HINT = "A word only the two of you would recognize."; 
+const SECRET_WORD = "vitd"; 
+const PASSWORD_HINT = "smile."; 
 
 const hint = document.getElementById("hint");
 hint.textContent = "A hint: " + PASSWORD_HINT;
